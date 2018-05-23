@@ -1,8 +1,14 @@
 function takeANumber(s,n)
 {
-  
+  if (s.length >0)
+  {
     s.push(n)
+  }
+  else
+  {
+    s.unshift(n)
     return `Welcome, ${n}. You are number 1 in line.`
+  }
 }
 
 function nowServing(s)
