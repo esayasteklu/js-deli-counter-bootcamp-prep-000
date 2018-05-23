@@ -2,7 +2,7 @@ function takeANumber(s,n)
 {
   
     s.push(n)
-    return s.indexOf(n)
+    return `Welcome, ${n}. You are number 1 in line.`
 }
 
 function nowServing(s)
