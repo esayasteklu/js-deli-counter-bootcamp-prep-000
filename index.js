@@ -7,8 +7,9 @@ function takeANumber(s,n)
   else
   {
     s.push(n)
-    return `Welcome, ${n}. You are number 1 in line.`
+   
   }
+   return `Welcome, ${n}. You are number 1 in line.`
 }
 
 function nowServing(s)
