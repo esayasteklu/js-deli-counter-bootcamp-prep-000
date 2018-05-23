@@ -10,6 +10,7 @@ function takeANumber(s,n)
    
   }
   var m= s.indexOf(n)
+  m=m+1
      return `Welcome, ${n}. You are number ${m} in line.`
 }
 
