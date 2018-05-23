@@ -9,8 +9,8 @@ function takeANumber(s,n)
     s.push(n)
    
   }
-  var m= s.indexof(n)
-   return `Welcome, ${n}. You are number 1 in line.`
+  var m= s.indexOf(n)
+     return `Welcome, ${n}. You are number 1 in line.`
 }
 
 function nowServing(s)
