@@ -25,7 +25,7 @@ function currentLine(s)
 {
   if (s.length <1)
   {
-    return "There is nobody waiting to be served!"
+    return "The line is currently empty."
   }
   else 
   {
