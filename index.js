@@ -29,7 +29,7 @@ function currentLine(s)
   }
   else 
   {
-    return `The line is currently: 1. ${s[0]}, 2. ${s[1]},`
+    return `The line is currently: 1. ${s[0]}, 2. ${s[1]}, 3. ${s[1]}`
   }
     
     
