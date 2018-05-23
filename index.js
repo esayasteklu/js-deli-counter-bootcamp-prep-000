@@ -23,6 +23,16 @@ function nowServing(s)
 
 function currentLine(s)
 {
-  
+  if (s.length <1)
+  {
+    return "There is nobody waiting to be served!"
+  }
+  else 
+  {
+    var m=s[0];
+    s.unshift()
+    return  "Currently serving "+ m +"."
+  }
+    
     
 }
