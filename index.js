@@ -21,9 +21,8 @@ function nowServing(s)
     
 }
 
-function currentLiner(s,n)
+function currentLine(s)
 {
   
-    s.push(n)
-    return s.indexOf(n)
+    
 }
