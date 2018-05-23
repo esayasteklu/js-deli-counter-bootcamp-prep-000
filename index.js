@@ -14,7 +14,7 @@ function nowServing(s)
   else 
   {
     var m=s[0];
-    s.unshift()
+    s.shift()
     return  "Currently serving "+ m +"."
   }
     
