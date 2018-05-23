@@ -1,12 +1,12 @@
 function takeANumber(s,n)
 {
-  if (s.length >0)
+  if (s.length <1)
   {
-    s.push(n)
+    s.unshift(n)
   }
   else
   {
-    s.unshift(n)
+    s.push(n)
     return `Welcome, ${n}. You are number 1 in line.`
   }
 }
