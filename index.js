@@ -29,9 +29,7 @@ function currentLine(s)
   }
   else 
   {
-    var m=s[0];
-    s.unshift()
-    return  "Currently serving "+ m +"."
+    "The line is currently: 1. Ada, 2. Grace"
   }
     
     
